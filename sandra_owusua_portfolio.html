@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sandra Owusua — Information Technology Professional</title>
+  <meta name="description" content="Portfolio of Sandra Owusua — IT professional skilled in networking, IT support, troubleshooting and system administration." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #ffffff;
+      --muted:#6b7280;
+      --accent:#0f172a;
+      --card:#f8fafc;
+      --primary:#0b5cff;
+      --radius:12px;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--accent);}
+    .container{max-width:1000px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#e6eefc,#f8fafc);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--primary);font-size:22px}
+    h1{margin:0;font-size:26px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    nav a{margin-left:14px;text-decoration:none;color:var(--muted);font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:28px;align-items:start}
+    .card{background:var(--card);padding:20px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+    .about h2{margin-top:0}
+    .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+    .skill{background:transparent;border:1px solid #e6eefc;padding:8px 12px;border-radius:999px;font-weight:600;color:var(--primary)}
+    .contact-list{list-style:none;padding:0;margin:0}
+    .contact-list li{margin-bottom:8px}
+    .btn-primary{display:inline-block;background:var(--primary);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:14px}
+    .project{padding:14px;border-radius:12px;border:1px solid #eef2ff;background:white}
+    footer{margin-top:38px;text-align:center;color:var(--muted);font-size:14px}
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr}
+      .avatar{width:60px;height:60px}
+      header{flex-direction:column;align-items:flex-start}
+      nav{margin-top:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">SO</div>
+        <div>
+          <h1>Sandra Owusua</h1>
+          <p class="lead">Information Technology Professional — Networking · IT Support · Troubleshooting</p>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="card about" id="about">
+        <h2>About</h2>
+        <p>I strive to excel in my chosen career in Information Technology and related fields by contributing my knowledge and skills to the success of employers, my community, and the broader international environment. I apply my competencies to work in reputable institutions, enhancing productivity and service delivery. Through professionalism and dedication, I aim to positively impact the corporate world and Ghana’s growing technology landscape.</p>
+
+        <h3 style="margin-top:18px">Professional Focus</h3>
+        <p style="margin:6px 0 0;color:var(--muted)">An understanding of computer networks including setup, configuration and maintenance; troubleshooting and diagnostics; IT support and administration.</p>
+
+        <h3 style="margin-top:18px">Quick Actions</h3>
+        <p style="margin:8px 0 0"><a class="btn-primary" href="mailto:sandraowusua020@gmail.com">Email Sandra</a> <a style="margin-left:10px;text-decoration:none;font-weight:700;color:var(--primary)" href="https://www.linkedin.com/in/sandra-owusua-237210396" target="_blank" rel="noopener">LinkedIn →</a></p>
+      </section>
+
+      <aside class="card" aria-labelledby="contact-heading">
+        <h3 id="contact-heading">Contact</h3>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:sandraowusua020@gmail.com">sandraowusua020@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sandra-owusua-237210396" target="_blank" rel="noopener">linkedin.com/in/sandra-owusua-237210396</a></li>
+          <li><strong>Website:</strong> sandraowusua.myportfolio.site</li>
+        </ul>
+
+        <hr style="margin:14px 0;border:none;border-top:1px solid #eef2ff" />
+        <h4>Availability</h4>
+        <p style="margin:8px 0 0;color:var(--muted)">Open to IT support, networking, and administrative roles. Available for internship and entry-level positions.</p>
+      </aside>
+
+      <section class="card" id="skills" style="grid-column:1/-1">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="skill">Computer Network Setup</span>
+          <span class="skill">Network Configuration</span>
+          <span class="skill">Maintenance & Troubleshooting</span>
+          <span class="skill">IT Support & Administration</span>
+          <span class="skill">Diagnostics</span>
+          <span class="skill">System Setup</span>
+        </div>
+
+        <h3 style="margin-top:18px">Tools & Technologies</h3>
+        <p style="margin:8px 0 0;color:var(--muted)">Basic familiarity with routing & switching concepts, TCP/IP, Windows & Linux OS, remote support tools and hardware diagnostics. (Add specific tools — e.g., Cisco Packet Tracer, Wireshark, etc. — when available.)</p>
+      </section>
+
+      <section class="card" id="projects" style="grid-column:1/-1">
+        <h2>Projects</h2>
+        <p style="margin:6px 0 12px;color:var(--muted)">Below are a few examples you can replace with real projects, school work or internships.</p>
+        <div class="projects">
+          <article class="project">
+            <h4>Campus Network Setup (Sample)</h4>
+            <p style="margin:6px 0 8px;color:var(--muted)">Designed and configured a small-scale campus network: VLAN segmentation, DHCP configuration and basic security hardening.</p>
+            <p style="margin:0;font-weight:600">Role: Network Designer • Tools: Packet Tracer</p>
+          </article>
+
+          <article class="project">
+            <h4>IT Helpdesk Support (Sample)</h4>
+            <p style="margin:6px 0 8px;color:var(--muted)">Provided end-user support, troubleshooting hardware issues and resolving software configuration problems for students and staff.</p>
+            <p style="margin:0;font-weight:600">Role: IT Support • Tools: Remote Desktop, Windows</p>
+          </article>
+
+          <article class="project">
+            <h4>System Diagnostics Workflow</h4>
+            <p style="margin:6px 0 8px;color:var(--muted)">Created a step-by-step diagnostics checklist for PC hardware & network issues to speed up resolution time in labs.</p>
+            <p style="margin:0;font-weight:600">Role: Documentation • Outcome: Reduced average resolution time</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="contact" style="grid-column:1/-1">
+        <h2>Contact & Download</h2>
+        <p style="margin:6px 0 10px;color:var(--muted)">Want this site as a single HTML file? Click the button to download the file or use the copy button to paste into your own editor.</p>
+        <p style="margin:8px 0 0">
+          <a class="btn-primary" id="downloadBtn" href="#">Download HTML</a>
+          <button id="copyBtn" style="margin-left:10px;padding:10px 14px;border-radius:10px;border:1px solid #e6eefc;background:white;font-weight:700;cursor:pointer">Copy HTML</button>
+        </p>
+        <p style="margin-top:12px;color:var(--muted)">Or reach me directly at <a href="mailto:sandraowusua020@gmail.com">sandraowusua020@gmail.com</a>.</p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Sandra Owusua — Information Technology Professional</p>
+    </footer>
+  </div>
+
+  <script>
+    // Populate year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Download button: create a file from the page's HTML
+    const downloadBtn = document.getElementById('downloadBtn');
+    downloadBtn.addEventListener('click', function(e){
+      e.preventDefault();
+      const htmlContent = '<!doctype html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([htmlContent], {type: 'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'sandra_owusua_portfolio.html';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // Copy HTML to clipboard
+    const copyBtn = document.getElementById('copyBtn');
+    copyBtn.addEventListener('click', async function(){
+      try{
+        await navigator.clipboard.writeText('<!doctype html>\n' + document.documentElement.outerHTML);
+        copyBtn.textContent = 'Copied ✓';
+        setTimeout(()=>copyBtn.textContent = 'Copy HTML',1500);
+      }catch(err){
+        copyBtn.textContent = 'Copy Failed';
+        setTimeout(()=>copyBtn.textContent = 'Copy HTML',1500);
+      }
+    });
+  </script>
+</body>
+</html>
